@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play Now!!!</title>
+    <link rel="stylesheet" href="/root/css/style.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- chamada JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="/root/js/tela01.js" async></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <!-- Inicio Modal modalGanhou -->
+      <div
+        class="modal fade"
+        id="modalGanhou"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title"></h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <!-- INÍCIO DO CONTEÚDO -->
+              <h3></h3>
+              <hr />
+              <div id="imagem">
+                <img src="/root/images/winner.png" />
+              </div>
+              <hr />
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fim Modal Resumo-->
+
+      <dialog id="myDialog">This is a dialog window</dialog>
+
+      <div class="boxPadrao bordaPadrao sombraPadrao w-50">
+        <span id="tituloJogo">Jogo do 1-2-3. Quer arriscar?</span>
+        <hr />
+        <p class="p-1">É simples...</p>
+        <p class="p-1">Acertando os 3 números, você ganha 1 ponto!</p>
+        <p class="p-1">
+          E se acertar a mesma sequencia anterior, ganha mais 1 ponto!
+        </p>
+        <p class="p-1">Chegando a 3 pontos...É um vencedor!</p>
+        <hr />
+        <span id="user"></span>
+      </div>
+      <div>
+        <!-- Tela Inicial -->
+        <div id="telaInicial" class="init w-50">
+          <div class="d-flex">
+            <img src="/root/images/question.png" alt="question" />
+            <img src="/root//images/question.png" alt="question" />
+            <img src="/root//images/question.png" alt="question" />
+          </div>
+          <div class="center mt-5">
+            <input
+              type="text"
+              id="nome"
+              placeholder="Digite seu nome aqui :-)"
+            />
+            <button id="btnJogar" class="pointer">I N I C I A R</button>
+          </div>
+        </div>
+        <!-- Fim Tela Inicial -->
+
+        <!-- Tela Jogo -->
+        <div id="telaJogo" class="init initSombraPadrao w-50 hide">
+          <div class="d-flex pontos">
+            <p>Pontos: <span id="pontuacao"></span></p>
+            <p>Resultado Anterior: <span id="resAnterior"></span></p>
+            <p>Vc ainda tem: <span id="tentativas"></span></p>
+          </div>
+          <div id="numbers" class="d-flex">
+            <img id="number1" src="/root/images/question.png" alt="question1" />
+            <img id="number2" src="/root/images/question.png" alt="question2" />
+            <img id="number3" src="/root/images/question.png" alt="question3" />
+          </div>
+
+          <button id="btnPlay">J O G A R</button>
+          <button id="btnNewGame" class="pointer">Novo Jogo</button>
+          <!-- <button onclick="myFunction()">Show dialog</button> -->
+        </div>
+        <!-- Fim Tela Jogo -->
+
+        <!-- Tela Winner - Looser -->
+        <div id="winLooser" class="hide">
+          <img src="/root/images/looser.jpg" alt="winner-looser" />
+        </div>
+        <!-- Fim Tela - Winner - Looser -->
+      </div>
+    </main>
+  </body>
+</html>

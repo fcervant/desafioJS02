@@ -1,0 +1,124 @@
+.hide {
+  display: none;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.init {
+  width: 50%;
+  border: 1px solid #000;
+  margin: 2vh auto;
+  border-radius: 12px;
+  align-items: center;
+}
+.initSombraPadrao {
+  box-shadow: 10px 10px 2px #eee;
+}
+.init img {
+  height: 20vh;
+  margin-top: 5vh;
+  border: 1px solid #000;
+}
+input,
+button {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0.2rem;
+  display: block;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.pontos {
+  font-size: 1rem;
+}
+
+.boxUser {
+  font-size: 1.5rem;
+  border: 1px solid #fff;
+}
+
+.boxPadrao {
+  padding: 3%;
+  width: 50%;
+  margin: 1vh auto;
+  border-radius: 12px;
+}
+
+.bordaPadrao {
+  border: 1px solid #eee;
+}
+
+.sombraPadrao {
+  box-shadow: 10px 10px 2px #eee;
+}
+
+.labelPadrao {
+  font-size: 1.5rem;
+}
+.textCenter {
+  text-align: center;
+}
+.textBold {
+  font-weight: bold;
+}
+.mtb-1 {
+  margin: 0.7rem 0;
+}
+
+.mtb-2 {
+  margin: 0.7rem 0;
+}
+
+.p-1 {
+  padding: 0.4rem;
+  font-size: large;
+  font-size: 30px;
+}
+.p-2 {
+  padding: 0.6rem;
+}
+
+.inputPadrao {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  padding: 2%;
+  background-color: rgba(241, 138, 20, 0.952);
+  border: none;
+  border-radius: 12px;
+  display: inline-block;
+  cursor: pointer;
+}
+.btnPadrao {
+  box-shadow: inset -3px -3px 3px rgba(72, 56, 232, 0.3);
+  color: #fff;
+}
+.bgPadrao {
+  background-color: rgba(243, 236, 227, 0.2);
+}
+
+#tituloJogo {
+  font-size: 50px;
+  text-align: center;
+  color: red;
+}
+
+/* css modal */
+#modalGanhou img {
+  border-radius: 8px;
+  border: 2px solid #000;
+  width: 300px;
+  -ms-flex-item-align: auto;
+}
