@@ -30,13 +30,12 @@ button {
   margin: 1rem auto;
 }
 
-.imgCenter{
+.imgCenter {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-
 
 .mt-5 {
   margin-top: 3rem;
@@ -87,9 +86,9 @@ button {
 }
 
 .p-1 {
-  padding: 0.4rem;
+  padding: 0.2rem;
   font-size: large;
-  font-size: 30px;
+  font-size: 20px;
 }
 .p-2 {
   padding: 0.6rem;
@@ -99,6 +98,7 @@ button {
   width: 100%;
   border: none;
   outline: none;
+  text-align: center;
 }
 
 .btn {
@@ -118,7 +118,7 @@ button {
 }
 
 #tituloJogo {
-  font-size: 50px;
+  font-size: 25px;
   text-align: center;
   color: red;
 }
