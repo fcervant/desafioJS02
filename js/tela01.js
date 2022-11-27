@@ -14,7 +14,7 @@ const nrSorteio = 3;
 var maxTentativas = 10;
 //const qtdTentativas = 10;
 var qtdPontos = 0;
-var qtPontosWinner = 2;
+var qtPontosWinner = 3;
 
 let arrayJogos = ["?", "?", "?"];
 
